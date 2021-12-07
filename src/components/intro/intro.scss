@@ -16,9 +16,13 @@
        overflow: hidden;
 
        .imgContainer{
+           margin-top:25px;
            width:600px;
            height:600px;
            background-color: rgb(128, 25, 45);
+           background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+           background-size: 400% 400%;
+           animation: gradient 15s ease infinite;
            border-radius: 50%;
            display: flex;
            align-items: flex-end;
@@ -68,6 +72,7 @@
           h1 {
             font-size: 60px;
             letter-spacing: 3px;
+            font-family: 'Yanone Kaffeesatz', sans-serif;
             
             @include mobile{
                 font-size: 40px;
@@ -75,7 +80,7 @@
           
           }
           h2 {
-              
+            font-family: 'Yanone Kaffeesatz', sans-serif; 
             font-size: 35px;
             letter-spacing: 3px;
           }
@@ -83,6 +88,7 @@
           h3 {
             font-size: 30px;
             letter-spacing: 3px;
+            font-family: 'Yanone Kaffeesatz', sans-serif;
 
             @include mobile{
                 font-size: 20px;
@@ -91,6 +97,7 @@
             span{
                 font-size: inherit;
                 color:crimson;
+                font-family: 'Yanone Kaffeesatz', sans-serif;
             }
 
             .ityped-cursor {
@@ -144,4 +151,15 @@
         }
      
       }
+      @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
     }

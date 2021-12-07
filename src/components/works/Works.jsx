@@ -9,22 +9,25 @@ export default function Works() {
       id: "1",
       icon: "assets/JSBudget.png",
       title: "Web Apps",
-      desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img:"assets/JSBudget.png",
+      desc:"A lightweight compiled programming language with first-class functions. ",
+      img:"assets/JSBudget.png", 
+      name:"Budget App",
     },
     {
       id: "2",
       icon: "assets/recipe_search.png",
       title: "React Apps",
-      desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      desc:"React Recipe Apps to fit your needs.",
       img:"assets/recipe_search.png",
+      name:"Recipe App",
     },
     {
       id: "3",
       icon: "assets/nollies.jpg",
       title: "WordPress",
-      desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      desc:"Wordpress websites built from scratch.",
       img:"assets/nollies.jpg",
+      name:"Websites",
     },
   ];
 
@@ -46,8 +49,8 @@ export default function Works() {
                   <img src={d.icon} alt=""/>
                 </div>
                 <h2>{d.title}</h2>
-                <p>{d.description}</p>
-                <span>Projects</span>
+                <p>{d.desc}</p>
+                <span>{d.name}</span>
               </div>
             </div>
             <div className="right">

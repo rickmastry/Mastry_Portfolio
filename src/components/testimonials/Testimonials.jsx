@@ -25,7 +25,7 @@ export default function Testimonials() {
       name: "Melissa Basehoar",
       title: "Owner-Atta Business Center",
       img:"assets/melissab.jpg",
-      icon: "assets/linkedin.png",
+      icon: "assets/globe.png",
       desc:"Love our website! Rick Mastry finished everything to the last detail!",
     },
   ];

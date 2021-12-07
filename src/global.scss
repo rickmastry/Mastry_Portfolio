@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+
 $mainColor: #1E1E1E;
 $mainWhite: #fff;
+
 
 
 $width: 768px;
@@ -8,4 +12,5 @@ $width: 768px;
     @media (max-width: #{$width}){
         @content
     }
-}
+};
+

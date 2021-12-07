@@ -4,6 +4,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 export default function Footer() {
+ 
     var [date,setDate] = useState(new Date());
     
     useEffect(() => {
@@ -16,6 +17,7 @@ export default function Footer() {
 
   return (
     <div class="footer">
+  
          <div className="item-container">
         <h1>Rick Mastry</h1>
        
@@ -25,9 +27,12 @@ export default function Footer() {
         <p>Copyright <span>{date.toLocaleDateString()}</span></p>
       </div>
       <div className="item-container">
-        <FacebookIcon className="icon"/>
-        <GitHubIcon className="icon"/>
+      
+        <FacebookIcon className="icon" onClick={() => window.open('https://www.facebook.com/mastrymedia.net/')}/>
+        <GitHubIcon className="icon" onClick={() => window.open('https://github.com/rickmastry')}/>
+  
       </div>
+     
     </div>
   )
 }

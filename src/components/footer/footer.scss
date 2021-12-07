@@ -1,9 +1,15 @@
+
+
 .footer{
     background-color: black;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:center;
+    
 
   
 
@@ -12,11 +18,13 @@
         align-items: center;
         margin-left:30px;
         margin-bottom: 30px;
+        overflow:hidden;
 
         h1{
             color:white;
-            font-size:20px;
+            font-size:40px;
             letter-spacing: 13px;
+            font-family: 'Yanone Kaffeesatz', sans-serif;
            
         
         }
@@ -25,30 +33,52 @@
             color:white;
             font-size:20px;
             letter-spacing: 7px;
+            font-family: 'Yanone Kaffeesatz', sans-serif;
     
             span{
                 color:inherit;
+                font-family: 'Yanone Kaffeesatz', sans-serif;
             }
         }
     
         .icon{
             font-size: 28px;
-            margin-right: 45px;
+            margin-right: 50px;
             color:rgb(83, 172, 255);
             display: flex;
+            height:100px;
             flex-direction: column;
             align-items: center;
             justify-content:space-between;
+            cursor:pointer;
+            transition: ease-in-out 1s all;
+           
+           
 
             &:hover{
                 
-                transition: ease 2s all;
+               
+                transition: ease-in-out 2s all;
                 color: white;
+                transform: scale(1.12);
+               
             }
         
         }
 
       
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
     }
 
   
