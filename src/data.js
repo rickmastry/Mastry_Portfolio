@@ -29,15 +29,27 @@ export const featuredPortfolio = [
 
     {
       id: 5,
-      title: "Restaurant Web App",
+      title: "Restaurant Website",
       img:"assets/CCLINK.png",
       link:"http://homestylecuisineja.com/"
     },
     {
       id: 6,
-      title: "Business Website",
+      title: "Restaurant Website",
       img:"assets/nollies.jpg",
       link:"https://nolliestacojoint.com"
+    },
+    {
+      id: 7,
+      title: "Expense Tracker",
+      img:"assets/expense.png",
+      link:"https://agile-hollows-96399.herokuapp.com/"
+    },
+    {
+      id: 8,
+      title: "React Weather App",
+      img: "assets/WEATHERLINK.jpg",
+      link:"https://rickmastry.github.io/React-Weather-App/"
     },
   ];
   
@@ -68,14 +80,14 @@ export const featuredPortfolio = [
     },
     {
       id: 5,
-      title: "Coming Soon",
-      img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
-      link:"/"
+      title: "Expense Tracker",
+      img: "assets/expense.png",
+      link:"https://agile-hollows-96399.herokuapp.com/"
     },
     {
       id: 6,
       title: "Coming Soon",
-      img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
+      img: "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
       link:"/"
     },
   ];

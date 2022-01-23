@@ -69,7 +69,7 @@ export default function Portfolio() {
           <div className="item">
             <img src={d.img} alt="" />
             <h3>{d.title}</h3>
-            <a href={d.link}>Link to Work</a>
+            <a href={d.link} target="blank">Link to Work</a>
           </div>
          ))}
         
